@@ -246,11 +246,12 @@ export * from './util/errors/UnsupportedMediaTypeHttpError';
 
 // Util/Handlers
 export * from './util/handlers/AsyncHandler';
+export * from './util/handlers/ErrorHandlingWaterfallHandler';
+export * from './util/handlers/OnErrorHandler';
 export * from './util/handlers/ParallelHandler';
 export * from './util/handlers/SequenceHandler';
 export * from './util/handlers/UnsupportedAsyncHandler';
 export * from './util/handlers/WaterfallHandler';
-export * from './util/handlers/ErrorHandlingWaterfallHandler';
 
 // Util/Identifiers
 export * from './util/identifiers/IdentifierStrategy';
